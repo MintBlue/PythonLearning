@@ -1,4 +1,8 @@
-list = ['1', '2']
-list.sort(reverse=True)
-print(list)
-print(list[-1])
+letters = ['a', 'b', 'c']
+# print(sorted(letters))
+# letters.sort(reverse=True)
+# print(letters)
+# print(letters.reverse())
+# print(letters[-1])
+for letter in letters:
+    print(letter)
